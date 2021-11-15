@@ -1,7 +1,7 @@
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
-    color: black;
+    color: magenta;
     background-color: #ffc;
     margin: 20px;
     padding: 0;
@@ -25,7 +25,7 @@ h1 {
     letter-spacing: 0.5em;
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
-    border-bottom-color: #c00;
+    border-bottom-color: lime;
 }
 
 h2 {
@@ -63,5 +63,11 @@ li {
 }
 
 table {
-    background-color: #ccc;
+    background-color: #000;
+}
+
+body, p, li, h1, h2, h3{
+	color: lime;
+	background-color: black;
+	border-color: lime;
 }
