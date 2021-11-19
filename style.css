@@ -25,16 +25,21 @@ h1 {
     letter-spacing: 0.5em;
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
-    border-bottom-color: lime;
+    border-bottom-color: #00ff44;
 }
 
 h2 {
-    color: white;
-    background-color: #090;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 2px;
-    padding-left: 14px;
+color:white;
+background-color:#090;
+font-size:1.5em;
+margin:0;
+padding:2px;
+padding-left:14px;
+border-style:dashed;
+    border-width:3px;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-color:#360202;
 }
 
 h3 {
