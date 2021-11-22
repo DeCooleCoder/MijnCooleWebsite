@@ -12,6 +12,10 @@ body {
 p {
     line-height: 21px;
 }
+/* Border change very easy shortcut */
+p {
+    border: 1px red dotted;
+}
 
 h1 {
     color: #ffc;
@@ -76,3 +80,23 @@ body, p, li, h1, h2, h3{
 	background-color: black;
 	border-color: lime;
 }
+
+/* Link changes color purple = already visited & blue is not visited yet */ 
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: lime;
+    margin: 10px 5px;
+}
+
