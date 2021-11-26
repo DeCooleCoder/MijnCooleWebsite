@@ -1,2 +1,2 @@
 language = "html"
-run = "website go on"
+run = "index.html"
